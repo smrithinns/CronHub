@@ -1,5 +1,5 @@
 {
-  "name": "cronhub",
+  "name": "cronvue",
   "version": "1.0.0",
   "description": "A Node.js web application for scheduling cron jobs",
   "main": "app.js",
