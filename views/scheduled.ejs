@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduled Cron Jobs</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <h1>Scheduled Cron Jobs</h1>
+    <ul>
+        <% scheduledTasks.forEach(task => { %>
+            <li>
+                <strong>Command:</strong> <%= task.command %><br>
+                <strong>Cron Expression:</strong> <%= task.cronExpression %>
+                <br>
+                <a href="/logs/<%= task.command %>">View Logs</a>
+                <a href="/edit/<%= task.command %>">Edit</a>
+                <a href="/delete-confirm/<%= task.command %>">Delete</a>
+            </li>
+        <% }); %>
+    </ul>
+    <nav>
+        <a href="/schedule">Schedule a New Cron Job</a>
+    </nav>
+</body>
+</html>

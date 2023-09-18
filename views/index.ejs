@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CronHub - Schedule Cron Jobs</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <h1>Welcome to CronHub</h1>
+    <p>Schedule and manage your cron jobs with ease.</p>
+    
+    <h2>Schedule a New Cron Job</h2>
+    <form action="/schedule" method="POST">
+        <label for="command">Command:</label>
+        <input type="text" id="command" name="command" placeholder="Your cron job command" required>
+        
+        <label for="cronExpression">Cron Expression:</label>
+        <input type="text" id="cronExpression" name="cronExpression" placeholder="Your cron expression" required>
+        
+        <button type="submit">Schedule</button>
+    </form>
+    
+    <nav>
+        <a href="/scheduled">View Scheduled Jobs</a>
+    </nav>
+</body>
+</html>
