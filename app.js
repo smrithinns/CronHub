@@ -7,7 +7,7 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/cronhub', {
+mongoose.connect('mongodb://localhost/cronvue', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
