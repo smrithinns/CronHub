@@ -1,6 +1,6 @@
-# CronHub
+# CronVue
 
-CronHub is a Node.js web application that provides a user-friendly interface for creating and managing scheduled cron jobs. It allows users to schedule and monitor cron jobs with ease.
+CronVue is a Node.js web application that provides a user-friendly interface for creating and managing scheduled cron jobs. It allows users to schedule and monitor cron jobs with ease.
 
 ## Features
 
@@ -12,7 +12,7 @@ CronHub is a Node.js web application that provides a user-friendly interface for
 
 ## Getting Started
 
-These instructions will help you set up and run CronHub on your local machine.
+These instructions will help you set up and run CronVue on your local machine.
 
 ### Prerequisites
 
@@ -26,8 +26,8 @@ Before you begin, ensure you have the following software installed:
 1. Clone the repository:
 
    ```
-    git clone https://github.com/yourusername/CronHub.git
-    cd CronHub
+    git clone https://github.com/yourusername/CronVue.git
+    cd CronVue
 
 ### Install dependencies:
 
@@ -42,7 +42,7 @@ Edit the MongoDB connection settings in app.js to match your database configurat
 
     node app.js
 
-CronHub should now be running locally. Access it in your web browser at http://localhost:3000.
+CronVue should now be running locally. Access it in your web browser at http://localhost:3000.
 
 ### Usage
 Visit the homepage to schedule new cron jobs.
@@ -51,7 +51,7 @@ Click "View Logs" to check the output of executed cron jobs.
 Edit or delete cron jobs as needed.
 
 ### Deployment
-To deploy CronHub to a production server, follow the same installation steps on your server. Additionally, consider using a process manager like PM2 for running your Node.js application in production.
+To deploy CronVue to a production server, follow the same installation steps on your server. Additionally, consider using a process manager like PM2 for running your Node.js application in production.
 
 ### Contributing
 Contributions are welcome! Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
@@ -67,5 +67,5 @@ MongoDB: The database used to store cron job data.
 ### Contact
 If you have any questions or feedback, please contact us at smrithinns@yahoo.co.in.
 
-Happy scheduling with CronHub!
+Happy scheduling with CronVue!
 
