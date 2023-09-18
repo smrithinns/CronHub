@@ -1,0 +1,22 @@
+{
+  "name": "cronhub",
+  "version": "1.0.0",
+  "description": "A Node.js web application for scheduling cron jobs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["cron", "scheduler", "web app"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.12.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "node-cron": "^3.0.0"
+    // Add other dependencies as needed
+  }
+}
